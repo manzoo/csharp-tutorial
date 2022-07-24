@@ -11,5 +11,10 @@ namespace HelloWorld
             PAN = "";
             Console.WriteLine("I am VIP person");
         }
+
+        static void Print(string message)
+        {
+
+        }
     }
 }

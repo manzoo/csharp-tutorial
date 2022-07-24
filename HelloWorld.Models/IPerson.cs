@@ -4,5 +4,9 @@
     {
         void Walk();
         void Eat();
+        private void Hello()
+        {
+
+        }
     }
 }

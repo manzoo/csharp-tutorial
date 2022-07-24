@@ -23,5 +23,15 @@
         {
             Console.WriteLine($"{FirstName} is walking");
         }
+
+        public override void MarkAttendance()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Print()
+        {
+
+        }
     }
 }

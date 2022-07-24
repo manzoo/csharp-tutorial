@@ -10,5 +10,10 @@
         {
             return HourlySalary * TotalHours;
         }
+
+        public override void MarkAttendance()
+        {
+            Console.WriteLine($"Contract employee {FirstName} is present");
+        }
     }
 }
